@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Large raw datasets
+ml/data/2021.csv
+ml/data/2022.csv
+ml/data/2023.csv
+ml/data/2024.csv
+ml/data/2025.csv
+ml/data/2026.csv
+
+# Large generated datasets
+ml/data/clean_market_prices.csv
+ml/data/featured_market_prices.csv
+ml/data/ml_ready_prices.csv
+
+# Large experimental models
+ml/models/best_price_model.pkl
+ml/models/best_price_model_v2.pkl
+
+# Generated predictions/results
+ml/models/final_test_predictions.csv
+ml/models/robust_test_predictions.csv
+ml/models/test_predictions.csv
+ml/models/test_predictions_v2.csv
+
+# Generated plots
+ml/models/*.png
